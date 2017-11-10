@@ -1,1 +1,2 @@
-# teawisdom.me.github.io
+# teawisdom.me
+a generator for random positive thoughts and affirmations from Yogi Tea labels
