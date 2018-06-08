@@ -6,9 +6,14 @@ body {
   font-weight: 300;
   color: #333;
   max-width: 700px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+@media screen and (min-width: 700px) {
+  body {
+    margin-top: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  }
+}
 h1, h2, h3 {
   margin: 0;
   font-family: "Open Sans Condensed", Arial, sans-serif;
@@ -25,17 +30,22 @@ a:hover {
 }
 
 header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   text-align: center;
   min-height: 213px;
   background-color: #d0f0c0;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/tea1.jpeg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../assets/img/tea1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 header h1 {
-  font-size: 3em;
+  margin-right: 18px;
+  display: inline-block;
+  font-size: 3.25em;
   color: #76597b;
 }
 
@@ -56,20 +66,35 @@ main .btn {
   transition: 0.3s;
 }
 main .btn:hover {
-  border-color: #56415a;
+  background-color: #56415a;
+  color: #fff;
 }
 
 footer {
   font-size: 14px;
   margin-top: 20px;
-  border-top: 1px solid #d0f0c0;
+  border-top: 3px solid #76597b;
   padding: 10px;
 }
 footer h3 {
-  font-size: 2.25em;
+  font-size: 2em;
 }
 footer p {
   margin: 0;
+}
+footer a {
+  font-weight: bold;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  padding: 0 20px;
 }
 
 /*# sourceMappingURL=css/styles.css.map */
