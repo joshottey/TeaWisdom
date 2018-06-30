@@ -1,0 +1,64 @@
+{
+  "yogi":
+    {
+      "description": "Inspiration from Yogi tea labels.",
+      "wisdom":
+        [
+          "Prosperity is within us.",
+          "Your greatest strength is love.",
+          "We are born wise, we are born complete.",
+          "People who love are happy.",
+          "Live righteously and love everyone, you will build up around you an aura of light and love.",
+          "Without realizing who you are, happiness cannot come to you.",
+          "Peace of mind comes piece by piece.",
+          "Compassion has no limit. Kindness has no enemy.",
+          "Love is to live for somebody, love is not to live with somebody.",
+          "Spread the light; be the lighthouse.",
+          "If you do anything out of sheer compassion, you will never be wrong.",
+          "If we are happy, everybody looks up and shares our happiness.",
+          "Use your head to live with heart.",
+          "It is not talking of love, but living in love that is everything.",
+          "Love yourself so that you may know how to live with self-respect.",
+          "Let your heart speak to others' hearts."
+        ]
+    },
+  "traditionalMedicinals":
+    {
+      "description": "Thoughts and inspiration from Traditional Medicinals tea bag labels.",
+      "wisdom":
+        [
+          {
+            "quote": "If you truly love nature, you will find beauty everywhere.",
+            "author": "Vincent Van Gogh"
+          },
+          {
+            "quote": "One touch of nature makes the whole world kin.",
+            "author": "William Shakespeare"
+          },
+          {
+            "quote": "There is pleasure in the pathless woods.",
+            "author": "Lord Byron"
+          },
+          {
+            "quote": "He who wants a rose must respect the thorn.",
+            "author": "Persian Proverb"
+          },
+          {
+            "quote": "Plant kindness and gather love.",
+            "author": "Proverb"
+          },
+          {
+            "quote": "The garden is a delight to the eye and a solace for the soul.",
+            "author": "Saadi"
+          },
+          {
+            "quote": "The difference between a flower and a weed is a judgment.",
+            "author": "Unknown"
+          },
+          {
+            "quote": "From a small seed a mighty trunk may grow.",
+            "author": "Aeschylus"
+          }
+        ]
+    }
+}
