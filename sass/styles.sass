@@ -3,7 +3,7 @@
 body
   margin: 0 auto
   font-family: Raleway, san-serif
-  font-size: 18px
+  font-size: 14px
   font-weight: 300
   color: #333
   max-width: 700px
@@ -43,21 +43,44 @@ header
     color: #76597b
 
 main
-  padding: 0 20px
-  text-align: center
-  #quote-area
-    text-align: left
-  .btn
-    margin-top: 10px
-    display: inline-block
-    font-weight: 700
-    padding: 10px 20px
-    border: 3px solid #76597b
-    border-radius: 50px
-    transition: 0.3s
-  .btn:hover
-    background-color: #56415a
-    color: #fff
+  padding: 40px 20px
+  background-color: #80a1d4
+  .rim, .bowl, .tea
+    margin: 0 auto
+  .rim
+    position: relative
+    z-index: 1
+    max-width: 420px
+    height: 15vh
+    background-color: #fff
+    border-radius: 50%
+    padding: 10px
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1))
+    .tea
+      display: flex
+      align-items: center
+      justify-content: center
+      /*   text-align: center; */
+      width: 100%
+      height: 100%
+      background-color: #d0f0c0
+      border-radius: 50%
+      #quote
+        padding: 0 4em
+        color: #76597b
+        line-height: 1.35
+  .bowl
+    // z-index: 1
+    position: relative
+    bottom: 60px
+    width: 99%
+    max-width: 420px
+    min-height: 200px
+    max-height: 300px
+    background-color: #fff
+    border-bottom-left-radius: 50%
+    border-bottom-right-radius: 50%
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1)
 
 footer
   font-size: 14px
