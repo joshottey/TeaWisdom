@@ -2,6 +2,7 @@ document.onreadystatechange = function () {
   if (document.readyState === "interactive") {
 
     let quotes;
+    let myWisdom = document.querySelector("#quote");
 
     fetch('https://raw.githubusercontent.com/joshottey/TeaWisdom/master/assets/data/wisdom.json')
       .then(response => response.json())
@@ -9,11 +10,15 @@ document.onreadystatechange = function () {
         quotes = data.yogi.wisdom;
       });
 
-    function newQuote() {
+    // tea leaf click event listener
+    document.querySelector('#new-quote').addEventListener("click", function() {
       let choice = Math.floor(Math.random() * (quotes.length));
-      document.querySelector("#quote").innerHTML = quotes[choice];
-    }
+      myWisdom.innerHTML = quotes[choice];
+    });
 
-    document.querySelector('#new-quote').addEventListener("click", newQuote);
+    // tweet event listener
+    document.querySelector('#tweet-quote').addEventListener("click", function() {
+      window.open("https://twitter.com/intent/tweet?text=" + myWisdom.innerHTML + " https://teawisdom.me/;hashtags=TeaWisdom");
+    });
   }
 }
