@@ -1,0 +1,22 @@
+{
+  "name": "teawisdom",
+  "version": "1.0.0",
+  "description": "An attempt at an open source project which collects wisdom from tea bag labels.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshottey/TeaWisdom.git"
+  },
+  "keywords": [
+    "tea"
+  ],
+  "author": "Josh Ottey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshottey/TeaWisdom/issues"
+  },
+  "homepage": "https://github.com/joshottey/TeaWisdom#readme"
+}
